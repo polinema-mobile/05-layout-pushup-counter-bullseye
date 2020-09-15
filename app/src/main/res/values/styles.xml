@@ -7,58 +7,108 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--  Main Menu  -->
+    <style name="welcome">
+        <item name="android:fontFamily">@font/dmsansbold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="username">
+        <item name="android:fontFamily">@font/dmsansbold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <style name="desc_main">
+        <item name="android:fontFamily">@font/dmsansregular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!--  Const 1  -->
+    <style name="desc_widget_2">
+        <item name="android:fontFamily">@font/dmsansregular</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="title_widget_2">
+        <item name="android:fontFamily">@font/dmsansbold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
     <style name="txtWelcome">
         <item name="android:fontFamily">@font/dmsansregular</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/txtPutih</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
     <style name="txtNama">
         <item name="android:fontFamily">@font/dmsansbold</item>
         <item name="android:textSize">35sp</item>
-        <item name="android:textColor">@color/txtPutih</item>
+        <item name="android:textColor">@color/white</item>
     </style>
     <style name="txtHowMany">
         <item name="android:fontFamily">@font/dmsansregular</item>
         <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/txtPutih</item>
+        <item name="android:textColor">@color/white</item>
     </style>
     <style name="txtButton">
         <item name="android:fontFamily">@font/dmsansbold</item>
         <item name="android:textSize">21sp</item>
-        <item name="android:textColor">@color/txtPutih</item>
+        <item name="android:textColor">@color/white</item>
     </style>
     <style name="txtButtonDesc">
         <item name="android:fontFamily">@font/dmsansregular</item>
         <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/txtPutih</item>
+        <item name="android:textColor">@color/white</item>
     </style>
     <style name="txtItemName">
         <item name="android:fontFamily">@font/dmsansregular</item>
         <item name="android:textSize">17sp</item>
-        <item name="android:textColor">@color/txtPutih</item>
+        <item name="android:textColor">@color/white</item>
     </style>
     <style name="txtItemCount">
         <item name="android:fontFamily">@font/dmsansbold</item>
         <item name="android:textSize">21sp</item>
-        <item name="android:textColor">@color/txtBlue</item>
+        <item name="android:textColor">@color/blue</item>
     </style>
     <style name="txtItemTime">
         <item name="android:fontFamily">@font/dmsansregular</item>
         <item name="android:textSize">12sp</item>
-        <item name="android:textColor">@color/txtBlueDark</item>
+        <item name="android:textColor">@color/blueDark</item>
     </style>
     <style name="txtAngkaPushup">
         <item name="android:textSize">100sp</item>
         <item name="android:fontFamily">@font/dmsansregular</item>
-        <item name="android:textColor">@color/txtPutih</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
     <style name="txtBiruPushup">
         <item name="android:fontFamily">@font/dmsansbold</item>
-        <item name="android:textColor">@color/txtBlue</item>
+        <item name="android:textColor">@color/blue</item>
         <item name="android:textSize">21sp</item>
     </style>
 
+    <style name="txt_item_history">
+        <item name="android:fontFamily">@font/dmsansregular</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--  Push Up Menu  -->
+    <style name="style_desc_push">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:fontFamily">@font/dmsansbold</item>
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="style_count">
+        <item name="android:fontFamily">@font/dmsansregular</item>
+        <item name="android:textSize">100sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 
 </resources>
