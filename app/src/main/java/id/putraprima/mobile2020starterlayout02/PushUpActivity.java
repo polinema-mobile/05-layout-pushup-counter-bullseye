@@ -16,14 +16,9 @@ public class PushUpActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_push_up);
-        // Mengeset nilai counter ke 0 saat activity;
+        // Mengeset nilai counter ke 0 saat activity nomer 13
         TextView textcounter = (TextView) findViewById(R.id.txtCounter);
         textcounter.setText("0");
-    }
-
-    public void toMainMenu(View view){
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
     }
 
     public void pushClick(View view){
