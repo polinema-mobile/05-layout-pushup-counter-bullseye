@@ -192,16 +192,69 @@
             app:layout_constraintTop_toTopOf="@id/textHistory" />
 
         <TextView
+            android:id="@+id/textTanggal2"
+            style="@style/txt_item_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="160dp"
+            android:text="10 Aug 2020"
+            app:layout_constraintStart_toStartOf="@id/cl_widget_3"
+            app:layout_constraintTop_toTopOf="@id/textHistory" />
+
+        <TextView
+            android:id="@+id/textTanggal3"
+            style="@style/txt_item_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="96dp"
+            android:text="11 Aug 2020"
+            app:layout_constraintStart_toStartOf="@id/cl_widget_3"
+            app:layout_constraintTop_toTopOf="@id/textHistory" />
+
+        <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="184dp"
+            android:fontFamily="@font/dmsansbold"
+            android:text="30"
+            android:textColor="@color/blue"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="@id/cl_widget_3"
+            app:layout_constraintHorizontal_bias="0.763"
+            app:layout_constraintStart_toEndOf="@+id/textTanggal"
+            app:layout_constraintTop_toTopOf="@id/cl_widget_3" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="128dp"
+            android:fontFamily="@font/dmsansbold"
+            android:text="2"
+            android:textColor="@color/blue"
+            android:textSize="21sp"
+            app:layout_constraintEnd_toEndOf="@id/cl_widget_3"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toEndOf="@+id/textTanggal"
+            app:layout_constraintTop_toTopOf="@id/cl_widget_3" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
             android:layout_marginTop="64dp"
             android:fontFamily="@font/dmsansbold"
-            android:layout_marginStart="150dp"
             android:text="200"
             android:textColor="@color/blue"
             android:textSize="21sp"
             app:layout_constraintEnd_toEndOf="@id/cl_widget_3"
+            app:layout_constraintHorizontal_bias="0.625"
             app:layout_constraintStart_toEndOf="@+id/textTanggal"
             app:layout_constraintTop_toTopOf="@id/cl_widget_3" />
 
@@ -209,12 +262,38 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/dmsansregular"
+            android:text="10:00"
+            android:textColor="@color/blueDark"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTanggal" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="72dp"
+            android:fontFamily="@font/dmsansregular"
+            android:text="19:00"
+            android:textColor="@color/blueDark"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTanggal" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/dmsansregular"
             android:text="08:30"
             android:textColor="@color/blueDark"
             android:textSize="12sp"
-            android:fontFamily="@font/dmsansregular"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textTanggal" />
 
