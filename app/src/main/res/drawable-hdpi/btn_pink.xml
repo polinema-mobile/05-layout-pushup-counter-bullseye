@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/button_square">
     <padding android:left="2dp" />
-    <solid android:color="@color/txtPutih" />
+    <solid android:color="@color/white" />
     <gradient
         android:startColor="@color/bgPinkGradientStart"
         android:endColor="@color/bgPinkGradientEnd"
