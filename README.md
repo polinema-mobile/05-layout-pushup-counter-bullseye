@@ -2,6 +2,6 @@
 
 ## Screenshot App
 ### Main Menu
-!(Main Menu)[/assets/mainmenu.png]
+![Main Menu](assets/mainmenu.png)
 ### Push Up Menu
-!(Push Up Menu)[/assets/pushmenu.png]
+![Push Up Menu](assets/pushmenu.png)
