@@ -5,3 +5,6 @@
 ![Main Menu](assets/mainmenu.png)
 ### Push Up Menu
 ![Push Up Menu](assets/pushmenu.png)
+
+### Demo
+![Apps](assets/demo.gif)
