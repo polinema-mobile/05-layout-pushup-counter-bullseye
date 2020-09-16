@@ -7,4 +7,4 @@
 ![Push Up Menu](assets/pushmenu.png)
 
 ### Demo
-![Apps](assets/demo.gif)
+![GIF](assets/demo.gif)
